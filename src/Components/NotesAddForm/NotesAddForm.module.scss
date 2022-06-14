@@ -1,0 +1,41 @@
+$fontSize:  calc(10px + 1vw);
+
+.inputNotes {
+    width: 100%;
+    padding: 1% 0 1% 1%;
+    border: none;
+    outline:none;
+    height: 100%;
+    font-size: $fontSize;
+    line-height: 30px;
+}
+
+.blue {
+    color: blue;
+}
+.addNoteForm {
+    display: flex;
+}
+.inputGroup {
+    display: flex;
+    padding: 3px 0;
+    align-items: center;
+    width: 100%; 
+    border: none;
+    outline: rgb(40, 15, 227);
+    box-shadow: 0 0 1px 1px rgba(10, 59, 220, 0.442);
+
+    &:focus {
+        box-shadow: 0 0 5px 5px rgba(10, 59, 220, 0.442);
+    }
+}
+
+.submitNote {
+    background: transparent;
+    padding: 3px;
+    margin-right: 10px;
+    outline: none;
+    border: 1px solid blue;
+    border-radius: 3px;
+    font-size: $fontSize;
+ }

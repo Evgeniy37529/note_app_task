@@ -1,0 +1,20 @@
+$color: #fff;
+$hoverColor: rgb(152, 227, 14);
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0b80e6;
+    color: $color;
+    padding: 1% 0;
+    
+}
+.git {
+    display: block;
+    text-decoration: none;
+    color: $color;
+    transition: all .3s;
+
+    &:hover {
+        color: $hoverColor;
+    }
+}

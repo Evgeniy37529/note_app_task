@@ -1,0 +1,63 @@
+.noteItem {
+    padding: 1%;
+    background-color: rgba(114, 106, 106, 0.258);
+    border-radius: 5px;
+    margin-bottom: 1%;
+}
+.noteContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: rgba(141, 133, 133, 0.571);
+}
+.bottonsGroup {
+    display: flex;
+}
+
+.edit, .del {
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: calc(7px + 1vw);
+}
+.edit {
+    background-color: rgb(29, 237, 10);
+    margin-right: 10px;
+}
+.del {
+    background-color: rgb(237, 10, 10);
+}
+
+
+.tagsContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1%;
+}
+
+.noteText {
+   margin-right: 5%;
+    overflow: hidden;
+}
+
+.blue {
+    color: blue;
+}
+
+@media screen and( max-width: 550px) {
+    .noteContent {
+        flex-direction: column;
+    }
+    .noteText {
+        margin: 0 0 5% 0;
+    }
+    .edit, .del {
+        margin-bottom: 5px;
+    }
+    .tagsContent {
+        flex-direction: column;
+    }
+}

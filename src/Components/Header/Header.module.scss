@@ -1,0 +1,35 @@
+$fontColor: #fff;
+$fontSize:  calc(10px + 1vw);
+$fontSizeLogo:  calc(14px + 1vw);
+$colorNav: rgba(220, 206, 206, 0.753);
+
+.header {
+    background-color:rgb(11, 128, 230);
+    padding: 1% 0;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+.titleApp {
+    padding: 0 1%;
+    font-size: $fontSizeLogo;
+    color: $fontColor;
+}
+.navigantion{
+    display: block;
+    padding: 0 1%;
+    text-decoration: none;
+    cursor: pointer;
+    color: $colorNav;
+    font-size: $fontSize;
+}
+
+.activeLink {
+    color: rgba(223, 246, 12, 0.69);
+    text-decoration: underline;
+  }

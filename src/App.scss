@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.active {
+    color: rgb(210, 20, 20);
+  }
+
+  .DraftEditor-root {
+    min-width: 400px;
+    min-height: 250px;
+    border: 1px solid black;
+  }
+
+  @media screen and (max-width: 550px) {
+    .DraftEditor-root {
+        min-width: 250px;
+    }
+}
